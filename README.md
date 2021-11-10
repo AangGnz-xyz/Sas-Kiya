@@ -8,7 +8,9 @@ Karena telah menemani saya (jgn bucin kntl)
 
 # Fitur Crack
 • Crack fb from my friend
+
 • Crack fb from public friend
+
 • Crack fb from followers
 # install script
 $ pkg update && pkg upgrade
