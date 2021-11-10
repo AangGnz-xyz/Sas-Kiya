@@ -24,8 +24,8 @@ o = "\033[1;96m" # biru muda
 def banner():
     print("""\033[;96m   ________ _     
   / ____/ /___ ___________(_)____
- / / / / __ `/ ___/ ___/ / ___/Coded by
-\033[;93m/ /___/ / /_/ (__ |__ ) / /__ Aang Ardiansyah-XD 
+ / / / / __ `/ ___/ ___/ / ___/Create by
+\033[;93m/ /___/ / /_/ (__ |__ ) / /__   AangSans-Xyz
 \____/_/\__,_/____/____/_/\___/
 """)
 
@@ -101,12 +101,12 @@ def log_token():
         zedd = open("login.txt", "w")
         zedd.write(toket)
         zedd.close()
-        print((m+"\n["+k+"•"+m+"]"+h+" Login Successful"))
+        print((m+"\n["+k+"•"+m+"]"+h+" Login Succesfully"))
         jalan('\033[1;96mAGAR BERJALAN LANCAR ANDA HARUS SUBSCRIBE DULU CHANNEL INI!')
         os.system('xdg-open http://www.youtube.com/c/TutorialityStudio')
         bot()
     except KeyError:
-        print((k+"["+p+"!"+k+"]"+p+" Token Invalid"))
+        print((k+"["+p+"!"+k+"]"+p+" Token Invalid Ngentod!!"))
         os.system("clear")
         log_token()
 
@@ -164,13 +164,13 @@ def choose_menu():
 		ress()
 	elif r=="0":
 		try:
-			jalan(k+"\n["+p+"•"+k+"]"+p+" Thanks For Using My Script")
+			jalan(k+"\n["+p+"•"+k+"]"+p+" Terimakasih Telah Menggunakan Script Saya:)")
 			os.system("rm -rf login.txt")
 			exit()
 		except Exception as e:
 			print((m+"["+k+"!"+m+"]"+p+" Error %s"%e))
 	else:
-		print((m+"["+k+"!"+m+"]"+p+" Wrong Input"))
+		print((m+"["+k+"!"+m+"]"+p+" Yang Bener Lah Tod!!"))
 		menu()	
 
 ###### DEP FRIENDS ######
@@ -179,7 +179,7 @@ def friend():
 	try:
 		toket=open("login.txt","r").read()
 	except IOError:
-		print((m+"\n["+k+"!"+m+"]"+p+" Cookie/Token Invalid"))
+		print((m+"\n["+k+"!"+m+"]"+p+" Cookie/Token Invalid Ngentod!!"))
 		os.system("rm -rf login.txt")
 		log_token()
 	try:
@@ -213,7 +213,7 @@ def publik():
 	try:
 		toket=open("login.txt","r").read()
 	except IOError:
-		print((m+"\n["+k+"!"+m+"]"+p+" Cookie/Token Invalid"))
+		print((m+"\n["+k+"!"+m+"]"+p+" Cookie/Token Invalid Ngentod!!"))
 		os.system("rm -rf login.txt")
 		log_token()
 	try:
@@ -248,7 +248,7 @@ def follow():
 	try:
 		toket=open("login.txt","r").read()
 	except IOError:
-		print((m+"\n["+k+"!"+m+"]"+p+" Cookie/Token Invalid"))
+		print((m+"\n["+k+"!"+m+"]"+p+" Cookie/Token Invalid Ngentod!!"))
 		os.system("rm -rf login.txt")
 		log_token()
 	try:
@@ -297,7 +297,7 @@ def generate(text):
 				if "indonesia" in ips:
 					results.append("Sayang")
 					results.append("Anjing")
-					results.append("Bangsat")
+					results.append("Ngentot")
 					results.append("Kontol")
 	return results
 
@@ -394,7 +394,7 @@ class crack:
 				except Exception as e:
 					print(("   %s"%e))
 					continue
-				print((k+"["+p+"•"+k+"]"+p+" Example : sayang,bismillah,123456"))
+				print((k+"["+p+"•"+k+"]"+p+" Example : anjing,sayang,223344"))
 				self.pwlist()
 				break
 			elif f=="d":
